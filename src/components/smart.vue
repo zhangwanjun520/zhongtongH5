@@ -5,7 +5,7 @@
     </div>
 
     <div class="IntelligentSMS" style="color:white">
-      <h3>5G短信</h3>
+      <h3>5G消息</h3>
       <p style="height:.4rem;color:#666666;font-size:.18rem!important;  display: flex;
               justify-content: center;
               align-items: center;margin-bottom:.14rem;">全面改造和升级传统短信</p>
@@ -13,7 +13,7 @@
         <img src="../assets/smart/图层 33.png" style="width:90%;height: 100%;" />
       </div>
       <p class="smartMessage">
-        5G短信本身还是短信，只是功能上大大地增强，从原来只能发70个字的文本短信，变成了带菜单、带卡片、带企业logo的新短信，让传统短信具有互联网能力。</br> 5G短信，还可根据企业发送短信场景不同，匹配不同的卡片和菜单服务。5G短信主要产品为短信公众号、短信门户、短信品宣、情景卡片等特色短信增值服务产品。
+        5G消息本身还是短信，只是功能上大大地增强，从原来只能发70个字的文本短信，变成了带菜单、带卡片、带企业logo的新短信，让传统短信具有互联网能力。</br> 5G消息，还可根据企业发送短信场景不同，匹配不同的卡片和菜单服务。5G消息主要产品为短信公众号、短信门户、短信品宣、情景卡片等特色短信增值服务产品。
       </p>
     </div>
 
@@ -168,8 +168,9 @@
 
     </div>
 
-    <div class="banner" style="background-color:#0F0E40;">
+    <div class="banner" style="background-color:#0F0E40;position:relative">
       <img src="../assets/smart/定制栏.png" class="full-img" />
+      <div class="hot-line">定制热线：4008-150-888</div>
 
     </div>
   </div>
@@ -413,6 +414,17 @@ export default {
 .andAustomers img {
   height: 100%;
 }
-
+.hot-line{
+  position: absolute;
+  width: 158px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  font-size: 12px;
+  top: 153px;
+  left: 22px;
+}
 
 </style>

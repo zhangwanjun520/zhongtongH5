@@ -46,7 +46,7 @@
           <p class="image">
             <img src="../assets/home2/serve1.png" alt />
           </p>
-          <p class="tit">短信</p>
+          <p class="titt">短信</p>
           <p class="info">稳定触达的短信发送服务，包括短信通知、短信验证码，满足企业和客户的多场景沟通，三网覆盖，集成快速，发送结果可知</p>
           <p class="button" @click="goMessage">
             <el-button type="primary" round size="mini">查看详情>></el-button>
@@ -56,7 +56,7 @@
           <p class="image">
             <img src="../assets/home2/serve2.png" alt />
           </p>
-          <p class="tit">隐私号</p>
+          <p class="titt">隐私号</p>
           <p class="info">基于运营商移动网电信品质的通信能力产品， 满足实名制、真实SIM卡托管产品， 可有效保护交易双方的号码隐私安全</p>
           <p class="button" @click="goPravicy">
             <el-button type="primary" round size="mini">查看详情>></el-button>
@@ -66,8 +66,8 @@
           <p class="image">
             <img src="../assets/home2/serve3.png" alt />
           </p>
-          <p class="tit">5G短信</p>
-          <p class="info">5G短信本身还是短信，只是功能上大大地增强，从原来只能发70个字的文本短信，变成了带菜单、带卡片、带企业logo的新短信，让传统短信具有互联网能力。</p>
+          <p class="titt">5G消息</p>
+          <p class="info">5G消息本身还是短信，只是功能上大大地增强，从原来只能发70个字的文本短信，变成了带菜单、带卡片、带企业logo的新短信，让传统短信具有互联网能力。</p>
           <p class="button button2" @click="gofiveG">
             <el-button type="primary" round size="mini">查看详情>></el-button>
           </p>
@@ -528,7 +528,7 @@ align-items: center;
   background-color: white;
   position: relative;
 }
-.tit {
+.titt{
   text-align: center;
   font-size: 18px;
   margin-top: 90px;

@@ -57,7 +57,7 @@
           <router-link to="/privacy" tag="span">隐私号</router-link>
         </el-menu-item>
         <el-menu-item index="2-4">
-          <router-link to="/smart" tag="span">5G短信</router-link>
+          <router-link to="/smart" tag="span">5G消息</router-link>
         </el-menu-item>
         <el-menu-item index="2-5">
           <a href="http://www.sinocall.net/" style="  text-decoration:none;color:black;">400/95客服号码</a>
@@ -74,8 +74,8 @@
       <div style="padding-bottom:.2rem;">
         <p class="padding">联系我们</p>
         <p>公司地址：北京市朝阳区惠河南街62-108</p>
-        <p>联系电话：4008-175-888</p>
-        <p>售后服务：400-889-5678</p>
+        <p>联系电话：4008-150-888</p>
+        <!-- <p>售后服务：400-889-5678</p> -->
         <p>传真电话：+86-010-85757990</p>
       </div>
       <div class="paddings">
